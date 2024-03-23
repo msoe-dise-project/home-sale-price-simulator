@@ -37,7 +37,7 @@ def send_events(host, topic, flname, ndays):
                 idx = record["id"]
                 producer.send(topic, key=bytes(str(idx), "utf-8"), value=record)
 
-            time.sleep(delay)
+                time.sleep(delay)
 
 if __name__ == "__main__":
     for key in [DATA_FILE_KEY, TOPIC_KEY, HOST_KEY, NDAYS_KEY]:
