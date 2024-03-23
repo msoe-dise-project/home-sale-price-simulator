@@ -27,3 +27,5 @@ $ docker run --name "home-sale-price-simulator" \
 			 -e KAFKA_TOPIC="labeled-home-sale-events" \
 			 dh-arm.hpc.msoe.edu:5000/home-sale-price-simulator
 ```
+
+TODO: add interest rates
